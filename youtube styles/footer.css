@@ -1,0 +1,45 @@
+.footer{
+    background-color: rgb(163, 163, 163);
+    color: white;
+    font-family: Roboto, Arial;
+    text-align: left;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    left: 73px;
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1000px;
+    cursor: pointer;
+    margin-top: 20px;
+    position: bottom;
+    
+}
+.follow {
+    background-color: rgb(231, 141, 5);
+    width: 200px;
+    text-align: center;
+    justify-content: space-between;
+    align-content: row;
+    display: flex;
+    padding: 10px;
+    border-radius: 3px;
+    flex-shrink: 5px;
+    flex-direction: row;
+    margin-top: 15px;
+
+}
+.p:hover{
+    color: rgb(172, 172, 235);
+    opacity: 1;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.fot{
+    height: 20px;
+    flex-wrap: 10px;
+}
+.p{
+    margin-top: 5px;
+    text-wrap: 50px;
+}
